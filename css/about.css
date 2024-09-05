@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+
+    font-family: verdana, sans-serif;
+    
+    font-size: large;
+    
+}
+
+header{
+    background-color: #ff0000;
+    padding: 10px;
+    padding-bottom: 100px;
+
+    nav {
+        float: right;
+        margin-top: 2em;
+        margin-right: 1em;
+    }
+
+    nav ul li {
+        display: inline;
+        list-style: none;
+        margin-left: 2em;
+        text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    }
+
+    .logo {
+        max-width: 90px;
+        width: 20%;
+        float:left;
+    }
+
+    a {
+        color:rgb(147,26,158);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(202, 8, 209);
+    }
+}
+body{
+    background-color: #eee;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background-color: #eee;
+    
+}
+
+.sobremim{
+    background: linear-gradient(to bottom, rgb(255, 0, 0) 50%, rgb(255, 255, 255) 70%, rgb(0, 0, 0) 90%);
+    padding: 2em;
+    border: 5px solid #ca0606;
+    border-radius: 30px;
+    text-align: justify;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 1px 2px 8px rgb(255, 255, 255);
+
+    ul li{
+        list-style: none;
+    }
+}
+
+#foto{
+    border: 1px solid #ca0606;
+    border-radius: 10px;
+    max-width: 200px;
+    align-self: center;
+    
+}
+
+#introducao{
+    padding-top: 1em;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex: 2;
+    
+    
+}
+
+
+
+#habilidades{
+    padding-top: 1em;
+    padding-right: 10px;
+    padding-left: 10px;
+    flex: 1;
+    text-align: center;
+    color: red;
+}
+
+
+#botao{
+    padding-top: 1em;
+    align-self: center;
+
+    button{
+        margin: 1em;
+        background-color: rebeccapurple;
+        border-radius: 5px;
+        padding: 5px;
+        border-color: #000000;
+        cursor: pointer;
+        box-shadow: 1px 2px 8px black;
+        transition: transform 0.5s ease;
+    }
+    button:hover{
+        background-color: rgb(202, 8, 209);
+        transform: scale(1.1);
+    }
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    
+    .social{
+        padding-top: 20px;
+        padding-left: 10px;  
+        transition: transform 0.5s ease;   
+        display: flex; 
+    }
+
+    #direitos{
+        
+        font-size: small;
+        text-align: right;
+        padding-right: 5px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        flex: 3;
+        cursor: default;
+        float: bot;
+    }
+
+    #git{
+        transition: transform 0.5s ease; 
+        padding-right: 10px;    
+        padding-top: 20px;
+        cursor: pointer; 
+    }
+
+    #git:hover{
+        transform: scale(1.2);
+    }
+    #insta{
+        transition: transform 0.5s ease;
+        cursor: pointer; 
+        padding-top: 20px;
+        padding-right: 10px; 
+    }
+    
+    #insta:hover{
+        transform: scale(1.2);
+    }
+    #tiktok{
+        transition: transform 0.5s ease;
+        cursor: pointer; 
+        padding-top: 20px;
+        
+    }
+    
+    #tiktok:hover{
+        transform: scale(1.2);
+    }
+
+   
+}
+

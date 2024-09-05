@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+
+    font-family: verdana, sans-serif;
+    font-size: large;
+}
+
+body{
+    background-color: black;
+    
+}
+
+header{
+    background-color: #ff0000;
+    padding: 10px;
+    padding-bottom: 100px;
+    nav {
+        float: right;
+        margin-top: 2em;
+        margin-right: 1em;
+    }
+
+    nav ul li {
+        display: inline;
+        list-style: none;
+        margin-left: 2em;
+        text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+        
+    }
+
+    .logo {
+        max-width: 90px;
+        width: 20%;
+        float:left;
+    }
+
+    a {
+        color:rgb(147, 26, 158);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(202, 8, 209);
+    }
+}
+
+main{
+    height: 75vh;
+}
+
+.bemvindo{
+    background: linear-gradient(to bottom, rgb(255, 0, 0) 50%, rgb(255, 255, 255) 70%, rgb(0, 0, 0) 90%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 50vh;
+    
+    p{
+        
+        font-size: 50px;
+        font-weight: bold;
+        background-image: linear-gradient(to bottom, rebeccapurple, rgb(147, 26, 158), rgb(202, 8, 209));
+        background-clip: text;
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        color: black;
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+        text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+        
+    }
+
+    button{
+        margin: 1em;
+        background-color: rebeccapurple;
+        border-radius: 5px;
+        padding: 5px;
+        border-color: #000000;
+        cursor: pointer;
+        box-shadow: 1px 2px 8px black;
+        transition: transform 0.5s ease;
+    }
+    button:hover{
+        background-color: rgb(202, 8, 209);
+        transform: scale(1.1);
+    }
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    
+    .social{
+        padding-top: 20px;
+        padding-left: 10px;  
+        transition: transform 0.5s ease;   
+        display: flex; 
+    }
+
+    #direitos{
+        
+        font-size: small;
+        text-align: right;
+        padding-right: 5px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        flex: 3;
+        cursor: default;
+        float: bot;
+    }
+
+    #git{
+        transition: transform 0.5s ease; 
+        padding-right: 10px;    
+        padding-top: 20px;
+        cursor: pointer; 
+    }
+
+    #git:hover{
+        transform: scale(1.2);
+    }
+    #insta{
+        transition: transform 0.5s ease;
+        cursor: pointer; 
+        padding-top: 20px;
+        padding-right: 10px; 
+    }
+    
+    #insta:hover{
+        transform: scale(1.2);
+    }
+    #tiktok{
+        transition: transform 0.5s ease;
+        cursor: pointer; 
+        padding-top: 20px;
+        
+    }
+    
+    #tiktok:hover{
+        transform: scale(1.2);
+    }
+
+   
+}
+
+
+
+
+
+
+
